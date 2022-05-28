@@ -1,0 +1,79 @@
+.login{
+    position: absolute;
+   width:400px;
+   height: 400px;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+background: #F4F9D8;
+text-align: center;
+border-radius: 15px;
+}
+
+.l1{
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+color: #4E944F;
+margin-top: 35px;
+}
+
+.l2{
+    font-family: 'Aksara Bali Galang';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.15em;
+color: #4E944F;
+}
+
+.l3{
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color:#83BD75; 
+}
+
+.l4{
+    font-family: 'Aksara Bali Galang';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+letter-spacing: 48px;
+padding: 0px;
+width: 190px;
+color: #4E944F;
+background:rgba(255, 0, 0, 0) ;
+border: none !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.l5{
+    color:rgb(255, 99, 52);
+    font-size: 16px;
+    margin: 5px
+
+}
+
+.l6{
+ color:#F4F9D8;
+ background:#4E944F;
+ padding: 10px 0px;
+ border-radius: 5px;
+ width: 80px;
+ font-size: 16px;
+ font-weight: 500;
+ letter-spacing: 0.1em;
+ text-align: center;
+ margin: auto;
+ border: none;
+
+}

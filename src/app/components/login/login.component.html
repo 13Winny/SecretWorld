@@ -1,0 +1,18 @@
+<div class="login">
+    <div class="l1">Welcome</div>
+    <div class="l2">TO THE SECRET WORLD</div>
+    <div class="l3">ENTER 4 DIGIT PIN</div>
+    <div>
+    <input class="l4" type="password" placeholder="" [(ngModel)]="pinvalue" onkeyup="if(this.value.length == 4) this.blur()" maxlength=4 name="pin">
+    </div>
+    <div>
+    <svg width="220" height="2" viewBox="0 0 220 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="180" y1="1" x2="220" y2="1" stroke="#4E944F" stroke-width="2"/>
+        <line y1="1" x2="40" y2="1" stroke="#4E944F" stroke-width="2"/>
+        <line x1="60" y1="1" x2="100" y2="1" stroke="#4E944F" stroke-width="2"/>
+        <line x1="120" y1="1" x2="160" y2="1" stroke="#4E944F" stroke-width="2"/>
+        </svg>
+    </div>        
+    <div class="l5">Hint: Reason for this gift</div> 
+    <button class="l6" (click)="onSubmit()" [disabled]="pinvalue.length!=4">Confirm</button>
+</div>
